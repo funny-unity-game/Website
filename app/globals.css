@@ -12,10 +12,12 @@
 ::-moz-selection {
 	/* Code for Firefox */
 	background: #fc7b3f;
+	color: #fff;
 }
 
 ::selection {
 	background: #fc7b3f;
+	color: #fff;
 }
 
 *::-webkit-scrollbar {
@@ -52,10 +54,29 @@ body {
 	padding: 0;
 }
 
-.bg-grid {
+.bg-v-grid {
 	mask-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 50%, rgba(255, 255, 255, 0) 100%);
+}
+.bg-h-grid {
+	mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 50%, rgba(255, 255, 255, 0) 100%);
 }
 
 button {
 	user-select: none;
+}
+
+@keyframes pulse {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.animated-glow:before {
+	animation: pulse 5s infinite;
 }
