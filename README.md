@@ -26,4 +26,12 @@ yarn build
 pnpm build
 ```
 
-Upload to any hosting service you want. It is recommended to use either Netlify or Vercel.
+Serve static build:
+
+```bash
+npm start
+# or
+yarn start
+# or
+pnpm start
+```
