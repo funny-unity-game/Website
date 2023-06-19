@@ -7,7 +7,7 @@ export default function Custom404() {
 	return (
 		<>
 			<NavBar />
-            <main className="bg-black h-screen w-screen flex flex-col justify-center items-center select-none">
+            <main className="bg-black h-screen w-screen px-12 flex flex-col justify-center items-center select-none">
 			<title>404 - Page not found - Mission: Monkey</title>
 			<p className="text-7xl mb-4">🙈</p>
 			<p className="text-7xl">404</p>
