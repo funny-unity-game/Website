@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 export function Footer() {
 	return (
 		<div className="px-12 sm:px-24 py-12 bg-[#111] text-[#888] border-t-[1px] border-t-[#444] flex justify-center">
 			<div className="flex flex-col gap-12 max-w-5xl w-full">
-				<div className="flex flex-row items-start gap-32">
+				<div className="flex flex-col sm:flex-row items-start sm:gap-[7rem]">
 					<div className="flex gap-4 items-center -translate-y-2">
 						<img
 							src="/icon.png"
@@ -20,7 +22,7 @@ export function Footer() {
 						</p>
 					</div>
 				</div>
-				<div className="flex flex-row justify-between items-end">
+				<div className="flex flex-col xs:flex-row justify-between items-center xs:items-end gap-3">
 					<div className="flex flex-col gap-4">
 						<p>©️ 2023 Lemon Studios</p>
 					</div>
