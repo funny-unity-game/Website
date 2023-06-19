@@ -4,7 +4,6 @@ export default function Document() {
 	return (
 		<Html>
 			<Head>
-				<title>404 - Page not found</title>
 				<link
 					rel="icon"
 					type="image/x-icon"
