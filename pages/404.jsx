@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "../app/globals.css";
+import { Head, Html } from "next/document";
 
 export default function Custom404() {
 	return (
