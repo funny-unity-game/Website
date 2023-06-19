@@ -1,9 +1,13 @@
 import Link from "next/link";
 import "../app/globals.css";
+import NavBar from "../app/navbar.jsx";
+import Footer from "../app/footer.jsx";
 
 export default function Custom404() {
 	return (
-		<main className="bg-black h-screen w-screen flex flex-col justify-center items-center select-none">
+		<>
+			<NavBar />
+            <main className="bg-black h-screen w-screen flex flex-col justify-center items-center select-none">
 			<title>404 - Page not found - Mission: Monkey</title>
 			<p className="text-7xl mb-4">🙈</p>
 			<p className="text-7xl">404</p>
@@ -16,6 +20,8 @@ export default function Custom404() {
 				<i className="bi bi-house"></i>
 				<span>Go back to home</span>
 			</Link>
-		</main>
+			</main>
+			<Footer />
+		</>
 	);
 }
