@@ -11,7 +11,7 @@ export default function Custom404() {
 				href={"/"}
 				className="flex justify-center items-center gap-2 px-5 py-3 mt-4 shadow-lg bg-[#050505] hover:bg-[#151515] border-[#222] border-[1px] transition-all rounded-lg text-base sm:text-lg"
 			>
-				<i class="bi bi-house"></i>
+				<i className="bi bi-house"></i>
 				<span>Go back to home</span>
 			</Link>
 		</main>
