@@ -1,9 +1,6 @@
 "use client";
 import Link from "next/link";
 
-import NavBar from "./navbar.jsx";
-import Footer from "./footer.jsx";
-
 export default function Home() {
 	return (
 		<>
@@ -26,19 +23,16 @@ export default function Home() {
 						after:bg-[#222] after:content-[''] after:w-[calc(100%+2px)] after:h-[calc(100%+2px)] after:absolute after:top-[-1px] after:left-[-1px] after:-z-10 after:rounded-lg after:bg-gradient-to-tr after:from-[#ff4d4d] after:to-[#f9cb28]
 						before:content-[''] before:w-[calc(100%+2px)] before:h-[calc(100%+2px)] before:absolute before:top-[-1px] before:left-[-1px] before:-z-10 before:rounded-lg before:bg-gradient-to-tr before:from-[#ff4d4d] before:to-[#f9cb28] before:blur-xl before:opacity-40"
 							onClick={() => {
-								document.querySelector("button a.download-link").click();
+								document.querySelector("button a.downloads-page").click();
 							}}
 						>
 							<i class="bi bi-download"></i>
 							<p>Download</p>
 							<Link
-								href={"https://github.com/lemons-studios/Mission-Monkey/releases/latest"}
+								href={"/downloads"}
 								legacyBehavior={true}
 							>
-								<a
-									target="_blank"
-									className="download-link"
-								></a>
+								<a className="downloads-page"></a>
 							</Link>
 						</button>
 						<button
