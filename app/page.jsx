@@ -32,7 +32,7 @@ export default function Home() {
 							<i class="bi bi-download"></i>
 							<p>Download</p>
 							<Link
-								href={"https://github.com/funny-unity-game/Mission-Monkey/releases/latest"}
+								href={"https://github.com/lemons-studios/Mission-Monkey/releases/latest"}
 								legacyBehavior={true}
 							>
 								<a
@@ -53,7 +53,7 @@ export default function Home() {
 								<span className="hidden sm:inline-block mr-1">View on </span>Github
 							</p>
 							<Link
-								href={"https://github.com/funny-unity-game/Mission-Monkey"}
+								href={"https://github.com/lemons-studios/Mission-Monkey"}
 								legacyBehavior={true}
 							>
 								<a
