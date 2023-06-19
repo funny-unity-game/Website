@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
 
-import { NavBar } from "./navbar.jsx";
-import { Footer } from "./footer.jsx";
+import NavBar from "./navbar.jsx";
+import Footer from "./footer.jsx";
 
 export default function Home() {
 	return (
