@@ -24,6 +24,9 @@ export function Footer() {
 					<div className="text-sm leading-8">
 						<p className="text-white">Explore</p>
 						<p>
+							<Link href={"/"}>Home</Link>
+						</p>
+						<p>
 							<Link href={"/gallery"}>Image gallery</Link>
 						</p>
 						<p>
