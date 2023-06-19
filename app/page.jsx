@@ -7,7 +7,6 @@ import Footer from "./footer.jsx";
 export default function Home() {
 	return (
 		<>
-			<NavBar />
 			<main className="flex min-h-screen w-full flex-col px-24">
 				<div className="bg-h-grid w-full h-[42rem] absolute top-16 left-0 -z-50">
 					<div className="bg-[url('/grid.svg')] bg-repeat bg-v-grid w-full h-full"></div>
@@ -66,7 +65,6 @@ export default function Home() {
 					</div>
 				</div>
 			</main>
-			<Footer />
 		</>
 	);
 }

@@ -1,5 +1,8 @@
 import "./globals.css";
 
+import NavBar from "./navbar.jsx";
+import Footer from "./footer.jsx";
+
 export const metadata = {
 	title: "Mission: Monkey",
 	description: "A game for a school project created by at least 2 grade 10 students"
@@ -11,7 +14,11 @@ export default function RootLayout({ children }) {
 			<head>
 				<base target="_blank"></base>
 			</head>
-			<body>{children}</body>
+			<body>
+				<NavBar />
+				{children}
+				<Footer />
+			</body>
 		</html>
 	);
 }
