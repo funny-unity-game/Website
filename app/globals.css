@@ -77,12 +77,15 @@ button {
 @keyframes pulse {
 	0% {
 		opacity: 1;
+		filter: blur(20px);
 	}
 	50% {
 		opacity: 0.5;
+		filter: blur(18px);
 	}
 	100% {
 		opacity: 1;
+		filter: blur(20px);
 	}
 }
 
