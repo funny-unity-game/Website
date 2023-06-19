@@ -21,6 +21,15 @@ export function Footer() {
 							<a href="https://github.com/funny-unity-game/Website">Website</a>
 						</p>
 					</div>
+					<div className="text-sm leading-8">
+						<p className="text-white">Explore</p>
+						<p>
+							<Link href={"/gallery"}>Image gallery</Link>
+						</p>
+						<p>
+							<Link href={"/downloads"}>Downloads</Link>
+						</p>
+					</div>
 				</div>
 				<div className="flex flex-col xs:flex-row justify-between items-center xs:items-end gap-3">
 					<div className="flex flex-col gap-4">
