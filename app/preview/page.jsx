@@ -6,7 +6,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Suspense } from "react";
 
 const Model = () => {
-	const gltf = useLoader(GLTFLoader, "/models/FutureMicroscope.gltf");
+	const gltf = useLoader(GLTFLoader, "/models/ch1-1.gltf");
 	return (
 		<>
 			<primitive
