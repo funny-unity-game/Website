@@ -17,7 +17,7 @@ export default function Home() {
 						<p className="text-[3rem] leading-tight sm:text-[4rem] lg:text-[6rem] font-bold bg-gradient-to-tr from-[#ff4d4d] to-[#f9cb28] bg-clip-text text-[#0000]">Monkey</p>
 					</div>
 					<p className="text-base md:text-xl text-center">A game for a school project created by at least 2 grade 10 students</p>
-					<div className="flex flex-col xs:flex-row gap-4 xs:gap-8 mt-16">
+					<div className="flex flex-col xs:flex-row gap-6 xs:gap-8 mt-16">
 						<button
 							className="animated-glow flex justify-center items-center gap-2 px-5 py-3 shadow-lg bg-gradient-to-tr from-[#050505] to-[#050505] hover:from-[#ff4d4d] hover:to-[#f9cb28] transition-all rounded-lg text-base sm:text-lg relative 
 						after:bg-[#222] after:content-[''] after:w-[calc(100%+2px)] after:h-[calc(100%+2px)] after:absolute after:top-[-1px] after:left-[-1px] after:-z-10 after:rounded-lg after:bg-gradient-to-tr after:from-[#ff4d4d] after:to-[#f9cb28]

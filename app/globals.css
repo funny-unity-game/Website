@@ -92,3 +92,8 @@ button {
 .animated-glow:before {
 	animation: pulse 5s infinite;
 }
+
+table td,
+table th {
+	padding: 0.75rem 1rem;
+}
