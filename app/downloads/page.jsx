@@ -26,49 +26,27 @@ export default class Downloads extends React.Component {
 		return (
 			<>
 				<main className="flex min-h-screen w-full flex-col gap-4 px-24 pt-16 items-center">
-					<p className="text-4xl">Downloads</p>
-					<p className="text-2xl">Download for Windows</p>
+					<p className="text-4xl">Download for Windows</p>
 
-					{/* {this.state.latest == undefined ? (
-						<button
-							className="animated-glow flex justify-center items-center gap-2 px-5 py-3 shadow-lg bg-gradient-to-tr from-[#ff4d4d] to-[#f9cb28] hover:brightness-90 transition-all rounded-lg text-base sm:text-lg relative 
-								after:bg-[#222] after:content-[''] after:w-[calc(100%+2px)] after:h-[calc(100%+2px)] after:absolute after:top-[-1px] after:left-[-1px] after:-z-10 after:rounded-lg after:bg-gradient-to-tr after:from-[#ff4d4d] after:to-[#f9cb28]"
-						>
-							<i class="bi bi-download"></i>
-							<p>Loading...</p>
-						</button>
-					) : (
-						<button
-							className="animated-glow flex justify-center items-center gap-2 px-5 py-3 shadow-lg bg-gradient-to-tr from-[#ff4d4d] to-[#f9cb28] hover:brightness-90 transition-all rounded-lg text-base sm:text-lg relative 
-						after:bg-[#222] after:content-[''] after:w-[calc(100%+2px)] after:h-[calc(100%+2px)] after:absolute after:top-[-1px] after:left-[-1px] after:-z-10 after:rounded-lg after:bg-gradient-to-tr after:from-[#ff4d4d] after:to-[#f9cb28]"
-							onClick={() => {
-								document.querySelector("button a.downloads-page").click();
-							}}
-						>
-							<i class="bi bi-download"></i>
-							<p>Download</p>
-							<Link
-								href={this.state.latest == undefined ? this.state.latest.assets.filter((asset) => asset.name.toLowerCase().includes("win"))[0].browser_download_url : ""}
-								legacyBehavior={true}
-							>
-								<a className="downloads-page"></a>
-							</Link>
-						</button>
-					)} */}
 					<Link
-						className="animated-glow flex justify-center items-center gap-2 px-5 py-3 shadow-lg bg-gradient-to-tr from-[#ff4d4d] to-[#f9cb28] hover:brightness-90 transition-all rounded-lg text-base sm:text-lg relative 
+						className="animated-glow flex justify-center items-center gap-4 px-5 py-3 shadow-lg bg-gradient-to-tr from-[#ff4d4d] to-[#f9cb28] hover:brightness-90 transition-all rounded-lg text-base sm:text-lg relative 
 								after:bg-[#222] after:content-[''] after:w-[calc(100%+2px)] after:h-[calc(100%+2px)] after:absolute after:top-[-1px] after:left-[-1px] after:-z-10 after:rounded-lg after:bg-gradient-to-tr after:from-[#ff4d4d] after:to-[#f9cb28]"
 						href={this.state.releases.length > 0 ? this.state.releases[0].assets.filter((asset) => asset.name.toLowerCase().includes("win"))[0].browser_download_url : ""}
 					>
 						{this.state.releases.length > 0 ? (
 							<>
 								<i class="bi bi-download"></i>
-								<p>Download</p>
+								<div className="flex flex-col items-center justify-center">
+									<p>Download latest</p>
+									<p className="text-xs">{this.state.releases[0].name}</p>
+								</div>
 							</>
 						) : (
 							<p>Loading...</p>
 						)}
 					</Link>
+
+					<p className="text-2xl mt-12">Older versions</p>
 					{this.state.releases.length > 0 ? (
 						<table className="border-collapse [border-spacing:0.75rem]">
 							<tr>
@@ -77,12 +55,6 @@ export default class Downloads extends React.Component {
 								<th className="text-left">Download</th>
 								<th className="text-left">Source code</th>
 							</tr>
-							{/* <tr>
-								<td>0.1.0</td>
-								<td>Mar. 21, 2023</td>
-								<td>Link</td>
-								<td>Source</td>
-							</tr> */}
 							{this.state.releases.map((release) => (
 								<tr key={release.id}>
 									<td className="text-left">{release.name}</td>
