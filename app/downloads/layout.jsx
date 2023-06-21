@@ -14,7 +14,10 @@ export default function RootLayout({ children }) {
 			<head>
 				<base target="_blank"></base>
 			</head>
-			<body>{children}</body>
+			<body>
+				<NavBar />
+				{children}
+			</body>
 		</html>
 	);
 }
