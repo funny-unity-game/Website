@@ -16,10 +16,10 @@ export default function Footer() {
 						<div className="text-sm leading-8">
 							<p className="text-white">Source code</p>
 							<p>
-								<a href="https://github.com/lemons-studios/Mission-Monkey">Game</a>
+								<Link href="https://github.com/lemons-studios/Mission-Monkey">Game</Link>
 							</p>
 							<p>
-								<a href="https://github.com/lemons-studios/Website">Website</a>
+								<Link href="https://github.com/lemons-studios/Website">Website</Link>
 							</p>
 						</div>
 						<div className="text-sm leading-8">
@@ -41,12 +41,12 @@ export default function Footer() {
 						<p>©️ 2023 Lemon Studios</p>
 					</div>
 					<div className="flex flex-col gap-4">
-						<a
+						<Link
 							href="https://github.com/lemons-studios"
 							className="text-2xl"
 						>
-							<i class="bi bi-github"></i>
-						</a>
+							<i className="bi bi-github"></i>
+						</Link>
 					</div>
 				</div>
 			</div>

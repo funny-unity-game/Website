@@ -26,7 +26,7 @@ export default function Home() {
 								document.querySelector("button a.downloads-page").click();
 							}}
 						>
-							<i class="bi bi-download"></i>
+							<i className="bi bi-download"></i>
 							<p>Download</p>
 							<Link
 								href={"/downloads"}
@@ -42,7 +42,7 @@ export default function Home() {
 								document.querySelector("button a.github-link").click();
 							}}
 						>
-							<i class="bi bi-github"></i>
+							<i className="bi bi-github"></i>
 							<p>
 								<span className="hidden sm:inline-block mr-1">View on </span>Github
 							</p>
