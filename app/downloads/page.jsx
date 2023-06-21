@@ -84,7 +84,7 @@ export default class Downloads extends React.Component {
 								<td>Source</td>
 							</tr> */}
 							{this.state.releases.map((release) => (
-								<tr>
+								<tr key={release.id}>
 									<td className="text-left">{release.name}</td>
 									<td>{new Date(release.created_at).toLocaleDateString()}</td>
 									<td className="text-center">
