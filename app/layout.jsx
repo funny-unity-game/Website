@@ -1,7 +1,7 @@
 import "./globals.css";
 
-import NavBar from "./navbar.jsx";
-import Footer from "./footer.jsx";
+import NavBar from "../components/navbar.jsx";
+import Footer from "../components/footer.jsx";
 
 export const metadata = {
 	title: "Mission: Monkey",
