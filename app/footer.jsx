@@ -16,22 +16,47 @@ export default function Footer() {
 						<div className="text-sm leading-8">
 							<p className="text-white">Source code</p>
 							<p>
-								<Link href="https://github.com/lemons-studios/Mission-Monkey">Game</Link>
+								<Link
+									href="https://github.com/lemons-studios/Mission-Monkey"
+									className="hover:text-[#ccc]"
+								>
+									Game
+								</Link>
 							</p>
 							<p>
-								<Link href="https://github.com/lemons-studios/Website">Website</Link>
+								<Link
+									href="https://github.com/lemons-studios/Website"
+									className="hover:text-[#ccc]"
+								>
+									Website
+								</Link>
 							</p>
 						</div>
 						<div className="text-sm leading-8">
 							<p className="text-white">Explore</p>
 							<p>
-								<Link href={"/"}>Home</Link>
+								<Link
+									href={"/"}
+									className="hover:text-[#ccc]"
+								>
+									Home
+								</Link>
 							</p>
 							<p>
-								<Link href={"/gallery"}>Image gallery</Link>
+								<Link
+									href={"/gallery"}
+									className="hover:text-[#ccc]"
+								>
+									Image gallery
+								</Link>
 							</p>
 							<p>
-								<Link href={"/downloads"}>Downloads</Link>
+								<Link
+									href={"/downloads"}
+									className="hover:text-[#ccc]"
+								>
+									Downloads
+								</Link>
 							</p>
 						</div>
 					</div>
