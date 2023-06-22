@@ -5,7 +5,8 @@ import Footer from "../components/footer.jsx";
 
 export const metadata = {
 	title: "Mission: Monkey",
-	description: "A game for a school project created by at least 2 grade 10 students"
+	description: "A game for a school project created by at least 2 grade 10 students",
+	image: "https://missionmonkey.netlify.app/icon.png"
 };
 
 export default function RootLayout({ children }) {
