@@ -124,6 +124,6 @@ table th {
 #slideshowAnim .react-swipe-container {
 	top: 0 !important;
 }
-#slideshowAnim section.imageModal div.imageModal {
+#slideshowAnim div.imageModal {
 	top: calc(50% - 20px) !important;
 }
