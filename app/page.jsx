@@ -97,7 +97,7 @@ export default function Home() {
 						<div className="flex flex-col items-end justify-center w-32 xs:w-[12rem] sm:w-[16rem] md:w-[20rem] lg:w-[28rem] text-right"></div>
 						<div className="flex flex-col items-center justify-center gap-1">
 							<div className="w-0 h-[calc(50%-4px)] border-l-2 border-[#fff8] border-dashed"></div>
-							<div className="w-3 h-3 border-2 border-[#fff8] rounded-full"></div>
+							<div className="w-3 h-3 border-2 border-[#fff0] bg-[#fff8] rounded-full"></div>
 							<div className="w-0 h-[calc(50%-4px)] border-l-2 border-[#fff8] border-dashed"></div>
 						</div>
 						<div className="flex flex-col items-start justify-center w-32 xs:w-[12rem] sm:w-[16rem] md:w-[20rem] lg:w-[28rem]">
