@@ -1,0 +1,30 @@
+:root {
+	--no-of-reviews: 4;
+	--review-width: 16rem;
+	--review-height: 8rem;
+	--review-margin: 4rem;
+	--review-slide-time: 20s;
+}
+
+@keyframes review-scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc((var(--review-width) + var(--review-margin)) * var(--no-of-reviews) * -1));
+	}
+}
+.reviews-viewport {
+	width: 100%;
+	max-width: 48rem;
+	overflow: hidden;
+}
+.reviews-container {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	width: calc(2 * var(--no-of-reviews) * (var(--review-width) + var(--review-margin)));
+}
+.review-card {
+	animation: review-scroll var(--review-slide-time) linear infinite;
+}

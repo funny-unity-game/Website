@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Reviews from "@/components/reviews/reviews";
 
 export default function Home() {
 	return (
@@ -58,6 +59,8 @@ export default function Home() {
 						</button>
 					</div>
 				</div>
+
+				<Reviews />
 
 				<div className="flex flex-col items-center gap-1">
 					<p className="text-4xl mb-8">Roadmap</p>
