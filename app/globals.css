@@ -104,3 +104,26 @@ table td,
 table th {
 	padding: 0.75rem 1rem;
 }
+
+/* LIGHTBOX.JS */
+#slideshowAnim {
+	backdrop-filter: blur(10px) !important;
+}
+#slideshowAnim .react-swipe-container .react-transform-component {
+	transition: all 0.2s !important;
+	height: 95vh !important;
+}
+#slideshowAnim .react-swipe-container .react-transform-component > div {
+	place-self: center !important;
+}
+#slideshowAnim .react-swipe-container .react-transform-component > div > img {
+	height: auto !important;
+	border-radius: 25px;
+	filter: drop-shadow(0 0 0.75rem black);
+}
+#slideshowAnim .react-swipe-container {
+	top: 0 !important;
+}
+#slideshowAnim div.imageModal {
+	top: calc(50% - 20px) !important;
+}
