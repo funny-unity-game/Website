@@ -118,6 +118,8 @@ table th {
 }
 #slideshowAnim .react-swipe-container .react-transform-component > div > img {
 	height: auto !important;
+	border-radius: 25px;
+	filter: drop-shadow(0 0 0.75rem black);
 }
 #slideshowAnim .react-swipe-container {
 	top: 0 !important;
