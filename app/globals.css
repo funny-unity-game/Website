@@ -107,5 +107,21 @@ table th {
 
 /* LIGHTBOX.JS */
 #slideshowAnim {
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px) !important;
+}
+#slideshowAnim .react-swipe-container .react-transform-component {
+	transition: all 0.2s !important;
+	height: 95vh !important;
+}
+#slideshowAnim .react-swipe-container .react-transform-component > div {
+	place-self: center !important;
+}
+#slideshowAnim .react-swipe-container .react-transform-component > div > img {
+	height: auto !important;
+}
+#slideshowAnim .react-swipe-container {
+	top: 0 !important;
+}
+#slideshowAnim section.imageModal div.imageModal {
+	top: calc(50% - 20px) !important;
 }
