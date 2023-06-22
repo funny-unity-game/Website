@@ -30,6 +30,30 @@ export default function Gallery() {
 						className="rounded-xl"
 						src="/screenshots/4.png"
 					/>
+					<img
+						className="rounded-xl"
+						src="/screenshots/5.png"
+					/>
+					<img
+						className="rounded-xl"
+						src="/screenshots/6.png"
+					/>
+					<img
+						className="rounded-xl"
+						src="/screenshots/7.png"
+					/>
+					<img
+						className="rounded-xl"
+						src="/screenshots/8.png"
+					/>
+					<img
+						className="rounded-xl"
+						src="/screenshots/9.png"
+					/>
+					<img
+						className="rounded-xl"
+						src="/screenshots/10.png"
+					/>
 				</SlideshowLightbox>
 				<p className="text-center text-[#fff8] mt-16 select-none">That's all...</p>
 			</div>
