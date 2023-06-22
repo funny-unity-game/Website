@@ -17,17 +17,18 @@ export default function Gallery() {
 					<img
 						className="rounded-xl"
 						src="/screenshots/1.png"
-						alt=""
 					/>
 					<img
 						className="rounded-xl"
 						src="/screenshots/2.png"
-						alt=""
 					/>
 					<img
 						className="rounded-xl"
 						src="/screenshots/3.png"
-						alt=""
+					/>
+					<img
+						className="rounded-xl"
+						src="/screenshots/4.png"
 					/>
 				</SlideshowLightbox>
 			</div>
