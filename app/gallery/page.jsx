@@ -1,11 +1,11 @@
 "use client";
 import "lightbox.js-react/dist/index.css";
-import { SlideshowLightbox, initLightboxJS } from "lightbox.js-react";
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import { SlideshowLightbox } from "lightbox.js-react";
 
 export default function Gallery() {
 	return (
-		<main className="min-h-screen">
+		<main className="flex min-h-screen w-full flex-col gap-4 px-24 pt-16 items-center">
+			<p className="text-4xl">Gallery</p>
 			<div className="p-8">
 				<SlideshowLightbox
 					className="columns-sm gap-4 space-y-4"
