@@ -5,7 +5,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 export default function Gallery() {
 	return (
-		<main>
+		<main className="min-h-screen">
 			<div className="p-8">
 				<SlideshowLightbox
 					className="columns-sm gap-4 space-y-4"
@@ -31,6 +31,7 @@ export default function Gallery() {
 						src="/screenshots/4.png"
 					/>
 				</SlideshowLightbox>
+				<p className="text-center text-[#fff8] mt-16 select-none">That's all...</p>
 			</div>
 		</main>
 	);
