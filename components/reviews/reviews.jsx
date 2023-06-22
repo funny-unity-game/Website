@@ -9,7 +9,7 @@ export default class Reviews extends React.Component {
 
 	render() {
 		return (
-			<div className="mb-8 reviews flex flex-col items-center justify-center">
+			<div className="mb-32 reviews flex flex-col items-center justify-center">
 				<p className="text-center text-4xl mb-8">Reviews</p>
 				<div className="reviews-viewport fade-side">
 					<div className="reviews-container">
