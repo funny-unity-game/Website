@@ -1,18 +1,14 @@
 [
 	{
-		"name": "Test",
-		"review": "Lorem ipsum dolor sit amet"
+		"name": "Adam",
+		"review": "W game! 10/10"
 	},
 	{
-		"name": "Test",
-		"review": "Dummy text"
+		"name": "Ace",
+		"review": "Very good game except for the bugs"
 	},
 	{
-		"name": "Test2",
-		"review": "abc1234567890!@#$%^&*()lol"
-	},
-	{
-		"name": "A name",
-		"review": "A veeerrryyyy loooooong string of text lol. A veeerrryyyy loooooong string of text lol. A veeerrryyyy loooooong string of text lol. A veeerrryyyy loooooong string of text lol. "
+		"name": "Andrew",
+		"review": "Better than all AAA games released this year (2023)"
 	}
 ]
