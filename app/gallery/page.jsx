@@ -4,7 +4,7 @@ import { SlideshowLightbox } from "lightbox.js-react";
 
 export default function Gallery() {
 	return (
-		<main className="flex min-h-screen w-full flex-col gap-4 px-24 pt-16 items-center">
+		<main className="flex min-h-screen w-full flex-col gap-4 px-12 md:px-24 pt-16 items-center">
 			<p className="text-4xl">Gallery</p>
 			<div className="p-8">
 				<SlideshowLightbox
