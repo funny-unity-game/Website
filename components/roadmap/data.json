@@ -1,0 +1,44 @@
+[
+	{
+		"date": "April 1, 2023",
+		"version": "Alpha 0.1.0",
+		"description": "Initial release of the game. Prototype scene and basic player controls.",
+		"type": 2
+	},
+	{
+		"date": "April 2, 2023",
+		"version": "Alpha 0.1.1",
+		"description": "Fix model bug with a slope in the prototype scene.",
+		"type": 2
+	},
+	{
+		"date": "June 21, 2023",
+		"version": "Alpha 0.2.0",
+		"description": "Finalize level design for chapter 1-1 through chapter 1-3. Also adds lighting and decorations around the levels. Gameplay for chapter 1-1 to chapter 1-3 is complete. <a href='https://github.com/lemons-studios/Mission-Monkey/releases/tag/alpha-0.2.0' style='color:#60a5fa'>See full patch notes.</a>",
+		"type": 2
+	},
+	{
+		"date": "TBD",
+		"version": "Alpha 0.2.1",
+		"description": "Add the end cutscene to chapter 1, fix anything that is broken in chapter 1, enhance some things, and add some new QoL features.",
+		"type": 1
+	},
+	{
+		"date": "TBD",
+		"version": "Alpha 0.2.2",
+		"description": "Add cutscenes to anything that needs one, enhance the gameplay, and fix any issues that were not fixed in 0.2.1",
+		"type": 1
+	},
+	{
+		"date": "TBD",
+		"version": "Alpha 0.3.0",
+		"description": "Major update that will overhaul Chapter 1 and add many gameplay aspects to said chapter. updates after this one will take much longer as I try to meet the standards of this update.",
+		"type": 1
+	},
+	{
+		"date": "",
+		"version": "Future",
+		"description": "Add OST and saves system.",
+		"type": 0
+	}
+]
