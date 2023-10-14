@@ -18,27 +18,27 @@
 		"type": 2
 	},
 	{
+		"date": "October 14th, 2023",
+		"version": "Version 0.3",
+		"description": "New Weapon system, new AI system, new main menu, and many, many bugfixes",
+		"type": 2
+	},
+	{
 		"date": "TBD",
-		"version": "Alpha 0.2.1",
-		"description": "Add the end cutscene to chapter 1, fix anything that is broken in chapter 1, enhance some things, and add some new QoL features.",
+		"version": "Version 0.3.1",
+		"description": "Switch Project to URP and add mobile builds",
 		"type": 1
 	},
 	{
 		"date": "TBD",
-		"version": "Alpha 0.2.2",
-		"description": "Add cutscenes to anything that needs one, enhance the gameplay, and fix any issues that were not fixed in 0.2.1",
-		"type": 1
-	},
-	{
-		"date": "TBD",
-		"version": "Alpha 0.3.0",
-		"description": "Major update that will overhaul Chapter 1 and add many gameplay aspects to said chapter. updates after this one will take much longer as I try to meet the standards of this update.",
+		"version": "Version 0.4",
+		"description": "Major update that will overhaul Chapter 1 and add many gameplay aspects to the chapter",
 		"type": 1
 	},
 	{
 		"date": "",
 		"version": "Future",
-		"description": "Add OST and saves system.",
+		"description": "???",
 		"type": 0
 	}
 ]
