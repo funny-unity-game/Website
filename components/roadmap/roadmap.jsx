@@ -21,7 +21,7 @@ export default function Roadmap() {
 						<div className="flex flex-col items-start justify-center w-32 xs:w-[12rem] sm:w-[16rem] md:w-[20rem] lg:w-[28rem]"></div>
 					)}
 					<div className="flex flex-col items-center justify-center gap-1">
-						<div className={(index == 0 ? "fade-top " : "") + "w-0 h-[calc(50%-4px)] border-l-2 border-[#fff8] border-dashed"}></div>
+						<div className={(index == 0 ? "fade-top " : index == data.length ? "fade-bottom " : "") + "w-0 h-[calc(50%-4px)] border-l-2 border-[#fff8] border-dashed"}></div>
 						{item.type == 0 ? (
 							<div className="select-none my-[-0.25rem] font-medium text-[#fffa]">?</div>
 						) : (
