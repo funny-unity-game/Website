@@ -8,7 +8,7 @@ export default function Gallery() {
 			<p className="text-4xl">Gallery</p>
 			<div className="p-8">
 				<SlideshowLightbox
-					className="columns-sm gap-4 space-y-4"
+					className="columns-sm [column-count:4] gap-4 space-y-4"
 					showControls={false}
 					iconColor={"#fffa"}
 					backgroundColor={"#000b"}
